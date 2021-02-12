@@ -1,0 +1,28 @@
+{
+    "cSpell.words": [
+        "imshow"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/.history": true,
+        ".history": true
+    },
+    "explorerExclude.backup": null,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:projects}/Spider-master/movie2.db",
+            "name": "MovieDB"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
