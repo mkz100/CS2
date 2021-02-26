@@ -13,7 +13,8 @@
         "**/.settings": true,
         "**/.factorypath": true,
         "**/.history": true,
-        ".history": true
+        ".history": true,
+        "**/__pycache__": true
     },
     "explorerExclude.backup": null,
     "sqltools.connections": [
@@ -24,5 +25,8 @@
             "name": "MovieDB"
         }
     ],
-    "sqltools.useNodeRuntime": true
+    "sqltools.useNodeRuntime": true,
+    "python.formatting.autopep8Args": [
+        "--max-line-length=200"
+    ]
 }
