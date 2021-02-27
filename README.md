@@ -1,5 +1,5 @@
 # Computer Science 2: The Beauty and Joy of Computing
-## Course Syllabus, Fall 2020 
+## Course Syllabus, Spring 2021
  
 * Date : TBD
 * Instructor : Zhang, Kai { Solution Architect }
