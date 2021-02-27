@@ -15,7 +15,7 @@ In CS 1, we have learned --
 * Cloud Computing
 * An introduction of AI & Machine Learning
 
-In CS 2, we will explore the latest and very useful technologies and learn Python, Big Data and AI with hands on projects.
+In CS 2, we will explore and learn the latest and very useful technologies - Image Processing, Data Collection and Visualization and AI with hands on projects using Python.
 
 
 ## Text Books: 
