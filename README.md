@@ -44,7 +44,7 @@ Just Search online with Keyword
 
 | Day | Agenda  | Comments  |
 |---|---|---|
-| Day 1 | Class Intro and Environment Setup |   |  
+| Day 1 | Class Intro and Environment Setup |  [Python Environments and References](projects/EnvSetup.md) |  
 | Day 2-3 | Python Programming |   |  
 | Day 4-6 | Python Web Crawler |  Hands-on project |
 | Day 7-8 | Python Web Framework and Data Visualization | 

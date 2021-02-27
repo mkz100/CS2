@@ -1,5 +1,10 @@
 import cv2
 
+WindowName = 'Face Detector'
+cv2.namedWindow(WindowName, cv2.WINDOW_NORMAL)
+cv2.setWindowProperty(WindowName, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+cv2.setWindowProperty(WindowName, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_NORMAL)
+
 # Load some pre-trained data on face from opencv (haar cascade algorithm)
 trained_face_data=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
@@ -20,7 +25,7 @@ while True:
         (x, y, w, h) = face_position
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2) # green color box
 
-    cv2.imshow('Face Detector', frame)
+    cv2.imshow(WindowName, frame)
 
     # same as key = cv2.waitKey(1) ## q == 81 or Q = 113
     if cv2.waitKey(10) == ord('q'):

@@ -1,5 +1,10 @@
 import cv2
 
+WindowName = 'Face Detector'
+cv2.namedWindow(WindowName, cv2.WINDOW_NORMAL)
+cv2.setWindowProperty(WindowName, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+cv2.setWindowProperty(WindowName, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_NORMAL)
+
 # Load some pre-trained data on face from opencv (haar cascade algorithm)
 trained_face_data=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
@@ -21,7 +26,7 @@ for face_position in face_coordinates:
     (x, y, w, h) = face_position
     cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2) # green color box
 
-cv2.imshow('Face Detector', img)
+cv2.imshow(WindowName, img)
 
 # wait for any key stroke
 cv2.waitKey()
