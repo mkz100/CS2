@@ -5,10 +5,10 @@ https://baike.baidu.com/item/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8
 https://www.githubs.cn/post/what-is-github
 
 ### 怎样使用GitHub？ 
-https://blog.csdn.net/qq_31456593/article/details/79254848
-https://www.cnblogs.com/feixuelove1009/p/5955332.html
-https://www.bilibili.com/video/av625060450/
-https://www.bilibili.com/video/av625777024/
+* https://blog.csdn.net/qq_31456593/article/details/79254848
+* https://www.cnblogs.com/feixuelove1009/p/5955332.html
+* https://www.bilibili.com/video/av625060450/
+* https://www.bilibili.com/video/av625777024/
 
 ### 怎样提交作业和源码？ 
 https://github.com/mkz100/CS2/wiki
