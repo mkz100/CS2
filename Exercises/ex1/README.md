@@ -48,7 +48,7 @@ https://example.com/assets/guangxi/nannin/medical_school/my_cs2_1948/exercises/p
 4. Python 分四步:
    1. 获取参数
    2. 构建REST API URL: `--- api_url:  https://cutt.ly/api/api.php?key=e77a2e10762f46d8be84d47974d4703310301&short=https://example.com/assets/guangxi/nannin/medical_school/my_cs2_1948/exercises/project1/qqqwwweeerrrttt1234561222978&name=cs1948`
-   3. call REST API: 
+   3. Call REST API (GET) 缩短网址
    4. 分析返回值
    
 Example:
@@ -67,10 +67,10 @@ python3 ex1-cutt.ly.py https://example.com/assets/guangxi/nannin/medical_school/
 2. 查阅API 文档: https://dev.bitly.com/api-reference#createBitlink
 5. Python 分六步:
    1. 获取参数
-   2. 第一个REST API Call 获取 Bearer Token (验证码) : https://api-ssl.bitly.com/oauth/access_token => e65420c4b8961ac44590cbb8644724245c0c82c9
-   3. 第二个REST API Call 获取 group_guid : https://api-ssl.bitly.com/v4/groups
+   2. Call 第一个REST API (POST) 获取 Bearer Token (验证码) : https://api-ssl.bitly.com/oauth/access_token => e65420c4b8961ac44590cbb8644724245c0c82c9
+   3. Call 第二个REST API Call (GET) 获取 group_guid : https://api-ssl.bitly.com/v4/groups
    4. 构建第三个REST API URL: ("https://api-ssl.bitly.com/v4/shorten", json={"group_guid": guid, "long_url": url}, headers=headers)
-   5. 第三个REST API call: 
+   5. Call 第三个REST API (POST) 获取缩短网址 
    6. 分析返回值
 
 Example:
