@@ -45,7 +45,7 @@ https://example.com/assets/guangxi/nannin/medical_school/my_cs2_1948/exercises/p
 1. 注册
 2. 查阅API 文档: https://cutt.ly/api-documentation/cuttly-links-api
 3. API Key: e77a2e10762f46d8be84d47974d4703310301
-4. Python 四部分:
+4. Python 分四步:
    1. 获取参数
    2. 构建REST API URL: `--- api_url:  https://cutt.ly/api/api.php?key=e77a2e10762f46d8be84d47974d4703310301&short=https://example.com/assets/guangxi/nannin/medical_school/my_cs2_1948/exercises/project1/qqqwwweeerrrttt1234561222978&name=cs1948`
    3. call REST API: 
@@ -65,7 +65,7 @@ python3 ex1-cutt.ly.py https://example.com/assets/guangxi/nannin/medical_school/
 
 1. 注册
 2. 查阅API 文档: https://dev.bitly.com/api-reference#createBitlink
-5. Python 六部分:
+5. Python 分六步:
    1. 获取参数
    2. 第一个REST API Call 获取 Bearer Token (验证码) : https://api-ssl.bitly.com/oauth/access_token => e65420c4b8961ac44590cbb8644724245c0c82c9
    3. 第二个REST API Call 获取 group_guid : https://api-ssl.bitly.com/v4/groups
