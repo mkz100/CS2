@@ -10,6 +10,11 @@
 4. 为什么 API 非常重要? 
 5. 什么是HTTP? 他最常用的两个请求方法(methods)是什么? 
 6. HTTP 和 REST API 是什么关系? 
+7. 什么是 Base64 Encoding? 主要用在什么地方?
+8. 什么是 IP 地址? 和 DNS 什么关系?
+9. 什么是 HTTP call (请求)的 headers, query parameters, payload (body)? 各有什么用？ 
+10. 什么是 cookie ? 有什么用？ 
+11. 什么是 html, xml 和 json? 他们之间是何关系?
    
 * 程序接口(API)就像空气和水一样，已经渗透到你们生活学习中的每一个角落。比如你们的手机上所有的App包括微信都是通过API和后面的服务器进行对话。
 * 每一个网址其实都是一个 REST API. REST API 是最常见应用最广泛的 WEB API。 
