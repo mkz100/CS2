@@ -83,3 +83,19 @@ python3 ex1-bit.ly.py  https://example.com/assets/guangxi/nannin/medical_school/
 --- guid: Bl371Mwg2Dq
 --- Shortened URL: https://bit.ly/38iYva9
 ```
+
+### Sina.lt 网站 
+
+这个网站https://sina.lt/, 它没有直接给API。 而且这个网站埋了很多坑 -- 专门防止你去用程序来调用他的服务。爬虫程序经常要克服这些困难。 今天就用https://sina.lt/ 来学习爬虫的一些技能, 一个练兵的机会. 如果你们能能把这个网站肯下来，那你们的爬虫技能已经 迈出了坚实的一步。我已经把这个源码 [ex1-sina.py](ex1-sina.py) 放到GitHub了. 里面有无数的坑和雷。 你们要能把这段原版看懂，那你们的功力就很深厚了
+
+```
+python3 ex1-sina.py https://example.com/assets/guangxi/nannin/medical_school/my_cs2_1948/exercises/project1/qqqwwweeerrrttt1234561222978 tinyurl
+
+--- 命令行参数: ['ex1-sina.py', 'https://example.com/assets/guangxi/nannin/medical_school/my_cs2_1948/exercises/project1/qqqwwweeerrrttt1234561222978', 'tinyurl']
+--- response headers:  {'Date': 'Tue, 09 Mar 2021 09:28:24 GMT', 'Content-Type': 'image/gif', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': '__cfduid=df5590c7f98be47418c083ad1731ac08f1615282103; expires=Thu, 08-Apr-21 09:28:23 GMT; path=/; domain=.sina.lt; HttpOnly; SameSite=Lax, PHPSESSID=r0e3f0tihjap80g2ckr6v4tjo7; path=/', 'X-Powered-By': 'ASP.NET', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'X-Powered-By-Z': '4C2', 'CF-Cache-Status': 'BYPASS', 'cf-request-id': '08b7e9fdf40000f5b566831000000001', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report?s=ARtDuzF0%2Fr6RTZkol6E2jW8MU36re4aKJetsk%2BajbNmckenTvgQertGWAISHohH4xceKmb64StI1recmJVX6BYtpzUcfw%2FMn"}],"max_age":604800,"group":"cf-nel"}', 'NEL': '{"max_age":604800,"report_to":"cf-nel"}', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '62d345dcbc2ff5b5-SEA'}
+--- response cookies:  __cfduid=df5590c7f98be47418c083ad1731ac08f1615282103; expires=Thu, 08-Apr-21 09:28:23 GMT; path=/; domain=.sina.lt; HttpOnly; SameSite=Lax, PHPSESSID=r0e3f0tihjap80g2ckr6v4tjo7; path=/
+--- request headers:  {'cookie': 'PHPSESSID=r0e3f0tihjap80g2ckr6v4tjo7', 'User-Agent': 'Chrome/45.194.107.158'}
+--- api_url:  https://sina.lt/api.php?from=w&url=aHR0cHM6Ly9leGFtcGxlLmNvbS9hc3NldHMvZ3Vhbmd4aS9uYW5uaW4vbWVkaWNhbF9zY2hvb2wvbXlfY3MyXzE5NDgvZXhlcmNpc2VzL3Byb2plY3QxL3FxcXd3d2VlZXJycnR0dDEyMzQ1NjEyMjI5Nzg=&site=tinyurl
+--- data:  {'result': 'ok', 'data': {'short_url': 'https://tinyurl.com/ydanm5sf', 'title': '..'}}
+--- Shortened URL: https://tinyurl.com/ydanm5sf
+```
