@@ -86,7 +86,7 @@ python3 ex1-bit.ly.py  https://example.com/assets/guangxi/nannin/medical_school/
 
 ### Sina.lt 网站 
 
-这个网站https://sina.lt/, 它没有直接给API。 而且这个网站埋了很多坑 -- 专门防止你去用程序来调用他的服务。爬虫程序经常要克服这些困难。 今天就用https://sina.lt/ 来学习爬虫的一些技能, 一个练兵的机会. 如果你们能能把这个网站肯下来，那你们的爬虫技能已经 迈出了坚实的一步。我已经把这个源码 [ex1-sina.py](ex1-sina.py) 放到GitHub了. 里面有无数的坑和雷。 你们要能把这段原版看懂，那你们的功力就很深厚了
+这个网站https://sina.lt/, 它没有直接给API。 而且这个网站埋了很多坑 -- 专门防止你去用程序来调用他的服务。爬虫程序经常要克服这些困难。 今天就用https://sina.lt/ 来学习爬虫的一些技能, 一个练兵的机会. 如果你们能能把这个网站肯下来，那你们的爬虫技能已经 迈出了坚实的一步。我已经把这个源码 [ex1-sina.py](ex1-sina.py) 放到GitHub了. 里面有无数的坑和雷。 你们要能把这段原码看懂，那你们的功力就很深厚了
 
 ```
 python3 ex1-sina.py https://example.com/assets/guangxi/nannin/medical_school/my_cs2_1948/exercises/project1/qqqwwweeerrrttt1234561222978 tinyurl
