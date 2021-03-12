@@ -27,7 +27,7 @@ ramdon_ip = f"{random.randint(0,255)}.{random.randint(0,255)}.{random.randint(0,
 #ramdon_ip = "89.0.1.0"
 request_headers = {"User-Agent": f"Chrome/{ramdon_ip}"}
 
-response_headers = requests.get("https://sina.lt/images/transparent.gif", request_headers).headers
+response_headers = requests.get("https://sina.lt/images/transparent.gif", headers=request_headers).headers
 print ("--- response headers: ", response_headers )
 
 cookies = response_headers["Set-Cookie"]
