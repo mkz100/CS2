@@ -13,8 +13,10 @@
 
 ![image info](./ex2-2.png)
 
+## Sample Code
+
 ```
-p3 compus-news.py 
+python3 compus-news.py 
 
 --- 命令行参数: ['compus-news.py']
 --- api_url:  https://www.gxmu.edu.cn/
