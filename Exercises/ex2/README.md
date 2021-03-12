@@ -1,6 +1,15 @@
 # 用Python来实现爬虫
 
+[GOAL] 就是去你们学校的网页，把你们学校的今日要闻提炼出来。
+
+要求每个同学能够简述每一行代码的意义。 还有相应的概念。 
+
+## 要点
+
+### Developer Tool -> Elements
+
 ![image info](./ex2-1.png)
+### 字符编码 
 
 ![image info](./ex2-2.png)
 
