@@ -9,6 +9,9 @@
 ### Developer Tool -> Elements
 
 ![image info](./ex2-1.png)
+
+### 提取内容对应
+![image info](./ex2-3.png)
 ### 字符编码 
 
 ![image info](./ex2-2.png)
