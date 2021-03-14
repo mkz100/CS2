@@ -18,10 +18,10 @@ python3 face_detector_haar.py
 
 MTCNN
 
-# 动物识别
+## 动物识别
 
 Cat vs Dog
 
-# 决策树 
+## 决策树 
 
 Titanic Survival Prediction
